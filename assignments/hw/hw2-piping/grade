@@ -1,1 +1,49 @@
-/ 100
+0/ 100
+Last update Wed May 27 12:27:21 2015 -0700
+late / did Mike confirm this? 
+120
+-----------------------------------------------------
+[1]  Input redirection from an existant file (25)
+celik$ 
+-----------------------------------------------------
+[2]  Output redirection (>) to an non-existant file (15)
+celik$ output_redirected
+celik$ 
+-----------------------------------------------------
+[3]  Output append (>>) to an existing file (10)
+celik$ initial
+appended
+celik$ 
+-----------------------------------------------------
+[4]  Command with one pipe (15)
+celik$ this is correct
+celik$ 
+-----------------------------------------------------
+[5]  Command with more than one pipe (15)
+celik$       1       3      16
+celik$ 
+-----------------------------------------------------
+[6]  Input redirection with piping (5)
+  -5: Does not work!
+celik$ this is correct
+this is not
+celik$ 
+-----------------------------------------------------
+[7]  Output redirection and piping (5)
+  -5: Does not work!
+celik$ 
+-----------------------------------------------------
+[8]  Input redirection, output redirection, and piping (10)
+  -10: Does not work!
+celik$ this is correct
+this is not
+celik$ 
+-----------------------------------------------------
+  Extra 1: <<< (20)
+celik$ extra credit 1 works
+
+-----------------------------------------------------
+  Extra 2 (20)
+celik$ extra2_1r
+celik$ extra2_1r
+extra2_1a
