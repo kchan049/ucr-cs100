@@ -1,4 +1,4 @@
-80/ 100
+85/ 100
 Last update Fri May 1 23:29:41 2015 -0700
 
 Error checking for syscalls
@@ -8,10 +8,10 @@ file: [src/ls.cpp] -0
 
 
 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 2 of 8 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 3 of 8 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 4 of 8 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 5 of 8 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 6 of 8 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 7 of 8 ==42577== 32,816 bytes in 1 blocks are definitely lost in loss record 8 of 8 ==42577== definitely lost: 229,712 bytes in 7 blocks
--25: memory leak found in valgrind (ls -laR)
+-20: memory leak found in valgrind (ls -laR
 
 test ls output
-[34m1  [0m[32ma  [0maa[0m  b[0m  c[0m  
+[34m1  [0m[32ma  [0maa[0m  b[0m  c[0m
 +15: Extra - coloring works
 
 -5: file list doesn't match ls -l order
